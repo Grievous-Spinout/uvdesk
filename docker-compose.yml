@@ -21,7 +21,7 @@ services:
         MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
         MYSQL_DATABASE: uvdesk
     ports:
-        - 80:80
+        - 8080:80
 
 volumes:
   db_data: {}
